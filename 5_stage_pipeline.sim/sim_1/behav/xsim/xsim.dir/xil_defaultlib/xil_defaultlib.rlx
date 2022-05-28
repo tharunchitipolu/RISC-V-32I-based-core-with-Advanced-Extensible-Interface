@@ -1,0 +1,17 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/ALU_Module.v,1649065530,verilog,,C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/Branch_Unit.v,,ALU_Module,,,,,,,,
+C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/Branch_Unit.v,1649239483,verilog,,C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/Control_Unit.v,,Branch_Unit,,,,,,,,
+C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/Control_Unit.v,1650280157,verilog,,C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/GPR.v,,Control_Unit;Encoder_8;Mux_4;demux_4;demux_8,,,,,,,,
+C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/GPR.v,1649117865,verilog,,C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/Han_Carlson_adder_32.v,,GPR,,,,,,,,
+C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/Han_Carlson_adder_32.v,1649064083,verilog,,C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/Immediate_Module.v,,Comb;FA;Han_Carlson_adder_32,,,,,,,,
+C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/Immediate_Module.v,1649239449,verilog,,C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/alu_control_2.v,,Immediate_Module,,,,,,,,
+C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/alu_control_2.v,1649239465,verilog,,C:/Users/tharu/TRIAL_2/TRIAL_2.srcs/sources_1/new/cache.v,,alu_control_2,,,,,,,,
+C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/hazard_unit.v,1650534217,verilog,,C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/pipelined.v,,hazard_unit,,,,,,,,
+C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/pipeline_trial1.v,1650537889,verilog,,,,pipeline_trial1,,,,,,,,
+C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/pipelined.v,1650536207,verilog,,C:/Users/tharu/TRIAL_2/TRIAL_2.srcs/sources_1/new/slave.v,,pipelined,,,,,,,,
+C:/Users/tharu/TRIAL_2/TRIAL_2.srcs/sources_1/new/cache.v,1649491608,verilog,,C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/hazard_unit.v,,cache,,,,,,,,
+C:/Users/tharu/TRIAL_2/TRIAL_2.srcs/sources_1/new/slave.v,1650538096,verilog,,C:/Users/tharu/5_stage_pipeline/5_stage_pipeline.srcs/sources_1/new/pipeline_trial1.v,,slave,,,,,,,,

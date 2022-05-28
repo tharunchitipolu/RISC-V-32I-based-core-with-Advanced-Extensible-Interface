@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../5_stage_pipeline.srcs/sources_1/new/ALU_Module.v" \
+"../../../../5_stage_pipeline.srcs/sources_1/new/Branch_Unit.v" \
+"../../../../5_stage_pipeline.srcs/sources_1/new/Control_Unit.v" \
+"../../../../5_stage_pipeline.srcs/sources_1/new/GPR.v" \
+"../../../../5_stage_pipeline.srcs/sources_1/new/Han_Carlson_adder_32.v" \
+"../../../../5_stage_pipeline.srcs/sources_1/new/Immediate_Module.v" \
+"../../../../5_stage_pipeline.srcs/sources_1/new/alu_control_2.v" \
+"../../../../../TRIAL_2/TRIAL_2.srcs/sources_1/new/cache.v" \
+"../../../../5_stage_pipeline.srcs/sources_1/new/hazard_unit.v" \
+"../../../../5_stage_pipeline.srcs/sources_1/new/pipelined.v" \
+"../../../../../TRIAL_2/TRIAL_2.srcs/sources_1/new/slave.v" \
+"../../../../5_stage_pipeline.srcs/sources_1/new/pipeline_trial1.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
