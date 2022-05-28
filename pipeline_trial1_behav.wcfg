@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pipeline_trial1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pipeline_trial1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2.576667 us"></ZoomStartTime>
+      <ZoomEndTime time="24.916668 us"></ZoomEndTime>
+      <Cursor1Time time="6.300000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="314"></NameColumnWidth>
+      <ValueColumnWidth column_width="148"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="58" />
+   <wvobject fp_name="/pipeline_trial1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/master_en" type="logic">
+      <obj_property name="ElementShortName">master_en</obj_property>
+      <obj_property name="ObjectShortName">master_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/fill_random" type="logic">
+      <obj_property name="ElementShortName">fill_random</obj_property>
+      <obj_property name="ObjectShortName">fill_random</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/fill_values" type="logic">
+      <obj_property name="ElementShortName">fill_values</obj_property>
+      <obj_property name="ObjectShortName">fill_values</obj_property>
+   </wvobject>
+   <wvobject fp_name="group219" type="group">
+      <obj_property name="label">Stalls</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/pipeline_trial1/processor/stall_IF" type="logic">
+         <obj_property name="ElementShortName">stall_IF</obj_property>
+         <obj_property name="ObjectShortName">stall_IF</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_trial1/processor/stall_ID" type="logic">
+         <obj_property name="ElementShortName">stall_ID</obj_property>
+         <obj_property name="ObjectShortName">stall_ID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_trial1/processor/stall_EX" type="logic">
+         <obj_property name="ElementShortName">stall_EX</obj_property>
+         <obj_property name="ObjectShortName">stall_EX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_trial1/processor/stall_MEM" type="logic">
+         <obj_property name="ElementShortName">stall_MEM</obj_property>
+         <obj_property name="ObjectShortName">stall_MEM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_trial1/processor/stall_WR" type="logic">
+         <obj_property name="ElementShortName">stall_WR</obj_property>
+         <obj_property name="ObjectShortName">stall_WR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_trial1/processor/flush_EX" type="logic">
+         <obj_property name="ElementShortName">flush_EX</obj_property>
+         <obj_property name="ObjectShortName">flush_EX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_trial1/processor/flush_ID" type="logic">
+         <obj_property name="ElementShortName">flush_ID</obj_property>
+         <obj_property name="ObjectShortName">flush_ID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_trial1/processor/h1/Icache_stall" type="logic">
+         <obj_property name="ElementShortName">Icache_stall</obj_property>
+         <obj_property name="ObjectShortName">Icache_stall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_trial1/processor/h1/lwstall" type="logic">
+         <obj_property name="ElementShortName">lwstall</obj_property>
+         <obj_property name="ObjectShortName">lwstall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_trial1/processor/h1/ForwardAE" type="array">
+         <obj_property name="ElementShortName">ForwardAE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ForwardAE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_trial1/processor/h1/ForwardBE" type="array">
+         <obj_property name="ElementShortName">ForwardBE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ForwardBE[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group288" type="group">
+      <obj_property name="label">AXI</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group308" type="group">
+         <obj_property name="label">READ</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/pipeline_trial1/processor/ARID" type="array">
+            <obj_property name="ElementShortName">ARID[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ARID[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARID_1" type="array">
+            <obj_property name="ElementShortName">ARID_1[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ARID_1[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARID_2" type="array">
+            <obj_property name="ElementShortName">ARID_2[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ARID_2[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARADDR" type="array">
+            <obj_property name="ElementShortName">ARADDR[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ARADDR[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARADDR_1" type="array">
+            <obj_property name="ElementShortName">ARADDR_1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ARADDR_1[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARADDR_2" type="array">
+            <obj_property name="ElementShortName">ARADDR_2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ARADDR_2[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARLEN" type="array">
+            <obj_property name="ElementShortName">ARLEN[3:0]</obj_property>
+            <obj_property name="ObjectShortName">ARLEN[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARLEN_1" type="array">
+            <obj_property name="ElementShortName">ARLEN_1[3:0]</obj_property>
+            <obj_property name="ObjectShortName">ARLEN_1[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARLEN_2" type="array">
+            <obj_property name="ElementShortName">ARLEN_2[3:0]</obj_property>
+            <obj_property name="ObjectShortName">ARLEN_2[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARSIZE" type="array">
+            <obj_property name="ElementShortName">ARSIZE[2:0]</obj_property>
+            <obj_property name="ObjectShortName">ARSIZE[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARSIZE_1" type="array">
+            <obj_property name="ElementShortName">ARSIZE_1[2:0]</obj_property>
+            <obj_property name="ObjectShortName">ARSIZE_1[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARSIZE_2" type="array">
+            <obj_property name="ElementShortName">ARSIZE_2[2:0]</obj_property>
+            <obj_property name="ObjectShortName">ARSIZE_2[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARBURST" type="array">
+            <obj_property name="ElementShortName">ARBURST[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ARBURST[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARBURST_1" type="array">
+            <obj_property name="ElementShortName">ARBURST_1[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ARBURST_1[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARBURST_2" type="array">
+            <obj_property name="ElementShortName">ARBURST_2[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ARBURST_2[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARCACHE" type="logic">
+            <obj_property name="ElementShortName">ARCACHE</obj_property>
+            <obj_property name="ObjectShortName">ARCACHE</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARVALID" type="logic">
+            <obj_property name="ElementShortName">ARVALID</obj_property>
+            <obj_property name="ObjectShortName">ARVALID</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARVALID_1" type="logic">
+            <obj_property name="ElementShortName">ARVALID_1</obj_property>
+            <obj_property name="ObjectShortName">ARVALID_1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARVALID_2" type="logic">
+            <obj_property name="ElementShortName">ARVALID_2</obj_property>
+            <obj_property name="ObjectShortName">ARVALID_2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/ARREADY" type="logic">
+            <obj_property name="ElementShortName">ARREADY</obj_property>
+            <obj_property name="ObjectShortName">ARREADY</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/RID" type="array">
+            <obj_property name="ElementShortName">RID[1:0]</obj_property>
+            <obj_property name="ObjectShortName">RID[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/RDATA" type="array">
+            <obj_property name="ElementShortName">RDATA[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RDATA[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/RRESP" type="logic">
+            <obj_property name="ElementShortName">RRESP</obj_property>
+            <obj_property name="ObjectShortName">RRESP</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/RLAST" type="logic">
+            <obj_property name="ElementShortName">RLAST</obj_property>
+            <obj_property name="ObjectShortName">RLAST</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/RVALID" type="logic">
+            <obj_property name="ElementShortName">RVALID</obj_property>
+            <obj_property name="ObjectShortName">RVALID</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/RVALID_1" type="logic">
+            <obj_property name="ElementShortName">RVALID_1</obj_property>
+            <obj_property name="ObjectShortName">RVALID_1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/RVALID_2" type="logic">
+            <obj_property name="ElementShortName">RVALID_2</obj_property>
+            <obj_property name="ObjectShortName">RVALID_2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/RREADY" type="logic">
+            <obj_property name="ElementShortName">RREADY</obj_property>
+            <obj_property name="ObjectShortName">RREADY</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/RREADY_1" type="logic">
+            <obj_property name="ElementShortName">RREADY_1</obj_property>
+            <obj_property name="ObjectShortName">RREADY_1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/RREADY_2" type="logic">
+            <obj_property name="ElementShortName">RREADY_2</obj_property>
+            <obj_property name="ObjectShortName">RREADY_2</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group341" type="group">
+         <obj_property name="label">WRITE</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/pipeline_trial1/processor/AWID" type="array">
+            <obj_property name="ElementShortName">AWID[1:0]</obj_property>
+            <obj_property name="ObjectShortName">AWID[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWID_1" type="array">
+            <obj_property name="ElementShortName">AWID_1[1:0]</obj_property>
+            <obj_property name="ObjectShortName">AWID_1[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWID_2" type="array">
+            <obj_property name="ElementShortName">AWID_2[1:0]</obj_property>
+            <obj_property name="ObjectShortName">AWID_2[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWADDR" type="array">
+            <obj_property name="ElementShortName">AWADDR[31:0]</obj_property>
+            <obj_property name="ObjectShortName">AWADDR[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWADDR_1" type="array">
+            <obj_property name="ElementShortName">AWADDR_1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">AWADDR_1[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWADDR_2" type="array">
+            <obj_property name="ElementShortName">AWADDR_2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">AWADDR_2[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWLEN" type="array">
+            <obj_property name="ElementShortName">AWLEN[3:0]</obj_property>
+            <obj_property name="ObjectShortName">AWLEN[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWLEN_1" type="array">
+            <obj_property name="ElementShortName">AWLEN_1[3:0]</obj_property>
+            <obj_property name="ObjectShortName">AWLEN_1[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWLEN_2" type="array">
+            <obj_property name="ElementShortName">AWLEN_2[3:0]</obj_property>
+            <obj_property name="ObjectShortName">AWLEN_2[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWSIZE" type="array">
+            <obj_property name="ElementShortName">AWSIZE[2:0]</obj_property>
+            <obj_property name="ObjectShortName">AWSIZE[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWSIZE_1" type="array">
+            <obj_property name="ElementShortName">AWSIZE_1[2:0]</obj_property>
+            <obj_property name="ObjectShortName">AWSIZE_1[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWSIZE_2" type="array">
+            <obj_property name="ElementShortName">AWSIZE_2[2:0]</obj_property>
+            <obj_property name="ObjectShortName">AWSIZE_2[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWBURST" type="array">
+            <obj_property name="ElementShortName">AWBURST[1:0]</obj_property>
+            <obj_property name="ObjectShortName">AWBURST[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWBURST_1" type="array">
+            <obj_property name="ElementShortName">AWBURST_1[1:0]</obj_property>
+            <obj_property name="ObjectShortName">AWBURST_1[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWBURST_2" type="array">
+            <obj_property name="ElementShortName">AWBURST_2[1:0]</obj_property>
+            <obj_property name="ObjectShortName">AWBURST_2[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWCACHE" type="logic">
+            <obj_property name="ElementShortName">AWCACHE</obj_property>
+            <obj_property name="ObjectShortName">AWCACHE</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWVALID" type="logic">
+            <obj_property name="ElementShortName">AWVALID</obj_property>
+            <obj_property name="ObjectShortName">AWVALID</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWVALID_1" type="logic">
+            <obj_property name="ElementShortName">AWVALID_1</obj_property>
+            <obj_property name="ObjectShortName">AWVALID_1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWVALID_2" type="logic">
+            <obj_property name="ElementShortName">AWVALID_2</obj_property>
+            <obj_property name="ObjectShortName">AWVALID_2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/AWREADY" type="logic">
+            <obj_property name="ElementShortName">AWREADY</obj_property>
+            <obj_property name="ObjectShortName">AWREADY</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/WID" type="array">
+            <obj_property name="ElementShortName">WID[1:0]</obj_property>
+            <obj_property name="ObjectShortName">WID[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/WID_1" type="array">
+            <obj_property name="ElementShortName">WID_1[1:0]</obj_property>
+            <obj_property name="ObjectShortName">WID_1[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/WID_2" type="array">
+            <obj_property name="ElementShortName">WID_2[1:0]</obj_property>
+            <obj_property name="ObjectShortName">WID_2[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/WDATA" type="array">
+            <obj_property name="ElementShortName">WDATA[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WDATA[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/WDATA_1" type="array">
+            <obj_property name="ElementShortName">WDATA_1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WDATA_1[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/WDATA_2" type="array">
+            <obj_property name="ElementShortName">WDATA_2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WDATA_2[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/WSTRB" type="logic">
+            <obj_property name="ElementShortName">WSTRB</obj_property>
+            <obj_property name="ObjectShortName">WSTRB</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/WLAST" type="logic">
+            <obj_property name="ElementShortName">WLAST</obj_property>
+            <obj_property name="ObjectShortName">WLAST</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/WLAST_1" type="logic">
+            <obj_property name="ElementShortName">WLAST_1</obj_property>
+            <obj_property name="ObjectShortName">WLAST_1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/WLAST_2" type="logic">
+            <obj_property name="ElementShortName">WLAST_2</obj_property>
+            <obj_property name="ObjectShortName">WLAST_2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/WVALID" type="logic">
+            <obj_property name="ElementShortName">WVALID</obj_property>
+            <obj_property name="ObjectShortName">WVALID</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/WVALID_1" type="logic">
+            <obj_property name="ElementShortName">WVALID_1</obj_property>
+            <obj_property name="ObjectShortName">WVALID_1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/WVALID_2" type="logic">
+            <obj_property name="ElementShortName">WVALID_2</obj_property>
+            <obj_property name="ObjectShortName">WVALID_2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/WREADY" type="logic">
+            <obj_property name="ElementShortName">WREADY</obj_property>
+            <obj_property name="ObjectShortName">WREADY</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/BID" type="logic">
+            <obj_property name="ElementShortName">BID</obj_property>
+            <obj_property name="ObjectShortName">BID</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/BRESP" type="logic">
+            <obj_property name="ElementShortName">BRESP</obj_property>
+            <obj_property name="ObjectShortName">BRESP</obj_property>
+         </wvobject>
+         <wvobject fp_name="/pipeline_trial1/processor/BVALID" type="logic">
+            <obj_property name="ElementShortName">BVALID</obj_property>
+            <obj_property name="ObjectShortName">BVALID</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider291">
+      <obj_property name="label">IF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/pc_IF" type="array">
+      <obj_property name="ElementShortName">pc_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/pcplus4_IF" type="array">
+      <obj_property name="ElementShortName">pcplus4_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcplus4_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/pc_next" type="array">
+      <obj_property name="ElementShortName">pc_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_next[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider290">
+      <obj_property name="label">ID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/pc_ID" type="array">
+      <obj_property name="ElementShortName">pc_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/Instruction_ID" type="array">
+      <obj_property name="ElementShortName">Instruction_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/pcplus4_ID" type="array">
+      <obj_property name="ElementShortName">pcplus4_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcplus4_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/opcode_ID" type="array">
+      <obj_property name="ElementShortName">opcode_ID[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode_ID[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/Func7_ID" type="array">
+      <obj_property name="ElementShortName">Func7_ID[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Func7_ID[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/rs1_ID" type="array">
+      <obj_property name="ElementShortName">rs1_ID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_ID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/rs2_ID" type="array">
+      <obj_property name="ElementShortName">rs2_ID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_ID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/rd_ID" type="array">
+      <obj_property name="ElementShortName">rd_ID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_ID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/GPR_rd_data1_ID" type="array">
+      <obj_property name="ElementShortName">GPR_rd_data1_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GPR_rd_data1_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/GPR_rd_data2_ID" type="array">
+      <obj_property name="ElementShortName">GPR_rd_data2_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GPR_rd_data2_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/Immediate_ID" type="array">
+      <obj_property name="ElementShortName">Immediate_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Immediate_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/Branch_in1_ID" type="array">
+      <obj_property name="ElementShortName">Branch_in1_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Branch_in1_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/Branch_in2_ID" type="array">
+      <obj_property name="ElementShortName">Branch_in2_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Branch_in2_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/Branch_out_ID" type="logic">
+      <obj_property name="ElementShortName">Branch_out_ID</obj_property>
+      <obj_property name="ObjectShortName">Branch_out_ID</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider308">
+      <obj_property name="label">EX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/Instruction_EX" type="array">
+      <obj_property name="ElementShortName">Instruction_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/pc_EX" type="array">
+      <obj_property name="ElementShortName">pc_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/pcplus4_EX" type="array">
+      <obj_property name="ElementShortName">pcplus4_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcplus4_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/GPR_rd_data1_EX" type="array">
+      <obj_property name="ElementShortName">GPR_rd_data1_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GPR_rd_data1_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/GPR_rd_data2_EX" type="array">
+      <obj_property name="ElementShortName">GPR_rd_data2_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GPR_rd_data2_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/Immediate_EX" type="array">
+      <obj_property name="ElementShortName">Immediate_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Immediate_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/GPR_rd_data1_EX_AF" type="array">
+      <obj_property name="ElementShortName">GPR_rd_data1_EX_AF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GPR_rd_data1_EX_AF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/GPR_rd_data2_EX_AF" type="array">
+      <obj_property name="ElementShortName">GPR_rd_data2_EX_AF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GPR_rd_data2_EX_AF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/ALU_in1_EX" type="array">
+      <obj_property name="ElementShortName">ALU_in1_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_in1_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/ALU_in2_EX" type="array">
+      <obj_property name="ElementShortName">ALU_in2_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_in2_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/ALU_out_EX" type="array">
+      <obj_property name="ElementShortName">ALU_out_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_out_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider320">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/Instruction_MEM" type="array">
+      <obj_property name="ElementShortName">Instruction_MEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction_MEM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/pc_MEM" type="array">
+      <obj_property name="ElementShortName">pc_MEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_MEM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/rs1_MEM" type="array">
+      <obj_property name="ElementShortName">rs1_MEM[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_MEM[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/rs2_MEM" type="array">
+      <obj_property name="ElementShortName">rs2_MEM[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_MEM[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/ALU_out_MEM" type="array">
+      <obj_property name="ElementShortName">ALU_out_MEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_out_MEM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/DM_data_in_MEM" type="array">
+      <obj_property name="ElementShortName">DM_data_in_MEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DM_data_in_MEM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/DM_addr_MEM" type="array">
+      <obj_property name="ElementShortName">DM_addr_MEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DM_addr_MEM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/MemWrite_MEM" type="logic">
+      <obj_property name="ElementShortName">MemWrite_MEM</obj_property>
+      <obj_property name="ObjectShortName">MemWrite_MEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/MemRead_MEM" type="logic">
+      <obj_property name="ElementShortName">MemRead_MEM</obj_property>
+      <obj_property name="ObjectShortName">MemRead_MEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/DM_data_out_MEM" type="array">
+      <obj_property name="ElementShortName">DM_data_out_MEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DM_data_out_MEM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/Dcache_data_out" type="array">
+      <obj_property name="ElementShortName">Dcache_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Dcache_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider330">
+      <obj_property name="label">WB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/rd_WR" type="array">
+      <obj_property name="ElementShortName">rd_WR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_WR[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/Instruction_WR" type="array">
+      <obj_property name="ElementShortName">Instruction_WR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction_WR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/ALU_out_WR" type="array">
+      <obj_property name="ElementShortName">ALU_out_WR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_out_WR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/DM_data_out_WR" type="array">
+      <obj_property name="ElementShortName">DM_data_out_WR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DM_data_out_WR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/pc_WR" type="array">
+      <obj_property name="ElementShortName">pc_WR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_WR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_trial1/processor/GPR_wr_data_WR" type="array">
+      <obj_property name="ElementShortName">GPR_wr_data_WR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GPR_wr_data_WR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group336" type="group">
+      <obj_property name="label">INSTRUCTIONS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/pipeline_trial1/processor/pc_IF" type="array">
+         <obj_property name="ElementShortName">pc_IF[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_IF[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_trial1/processor/Instruction_ID" type="array">
+         <obj_property name="ElementShortName">Instruction_ID[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instruction_ID[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_trial1/processor/Instruction_EX" type="array">
+         <obj_property name="ElementShortName">Instruction_EX[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instruction_EX[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_trial1/processor/Instruction_MEM" type="array">
+         <obj_property name="ElementShortName">Instruction_MEM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instruction_MEM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_trial1/processor/Instruction_WR" type="array">
+         <obj_property name="ElementShortName">Instruction_WR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instruction_WR[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
